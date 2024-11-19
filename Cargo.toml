@@ -1,0 +1,8 @@
+[package]
+name = "vainfo2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libva = { package = "cros-libva", version = "0.0.10" }
+env_logger = "0.11.5"
